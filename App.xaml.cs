@@ -1,7 +1,6 @@
 ﻿using System;
 using Bianca_Teodora_Lab7.Data;
 using System.IO;
-using Bianca_Teodora_Lab7.Data;
 
 namespace Bianca_Teodora_Lab7;
 
@@ -23,7 +22,7 @@ public partial class App : Application
     }
     public App()
 	{
-		InitializeComponent();
+        InitializeComponent();
 
 		MainPage = new AppShell();
 	}
